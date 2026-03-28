@@ -17,7 +17,6 @@ app.get("/", (req, res) => {
   res.send("API Mahasiswa berjalan");
 });
 
-// ✅ TAMBAHAN DI SINI
 
 // GET semua
 app.get("/students", (req, res) => {
